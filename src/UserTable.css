@@ -1,0 +1,40 @@
+
+body {
+    background-color: black;
+    color: white;
+  }
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+    border: 1px solid #cccbcb;
+    text-align: left;
+  }
+  
+  table th,
+  table td {
+    padding: 8px 12px;
+    border: 1px solid #cac1c1;
+  }
+  th.birthdate {
+    width: 200px; 
+  }
+  
+  th.phone {
+    width: 300px; 
+  }
+  table th {
+    background-color: #201616;
+  }
+  
+  table img {
+    max-width: 50px;
+    max-height: 50px;
+  }  
